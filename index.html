@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://apis.google.com https://*.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; frame-src 'self' https://*.firebaseapp.com https://apis.google.com https://*.googleapis.com https://accounts.google.com; connect-src 'self' https://*.firebaseio.com https://*.googleapis.com https://*.firebaseapp.com https://apis.google.com;" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <!-- Note: X-Frame-Options must be set via HTTP headers, not meta tags -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    
+    <!-- SEO and App Meta -->
+    <meta name="description" content="Member Management Dashboard - Manage your members, track presence, and analyze data" />
+    <meta name="keywords" content="member management, dashboard, analytics, presence tracking" />
+    <meta name="author" content="Member Management System" />
+    <meta name="theme-color" content="#3b82f6" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    
+    <title>Member Management Dashboard</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
